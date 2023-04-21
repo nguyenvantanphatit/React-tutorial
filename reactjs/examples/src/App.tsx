@@ -7,6 +7,8 @@ import FunctionComponents from "./views/LifeCycle/FunctionComponents";
 import "./App.css";
 import React from "react";
 import { SideBarItemProps } from "./components/SideBar/types";
+import HOC from "./components/HOC";
+import DemoHOC from "./components/HOC/DemoHOC";
 
 const dummyData = [
   { id: 0, name: "Test1", icon: "" },
@@ -21,7 +23,11 @@ function App() {
 
     setItems(dummyData);
   }, []);
-  return <SideBar items={items} />;
+  return (
+    <HOC>
+      <DemoHOC />
+    </HOC>
+  );
 }
 
 export default App;

@@ -67,7 +67,8 @@ To deploy this project run
   - Chart
 
 - 
-
+## Design 
+https://www.figma.com/file/ifPAFQOS9ABrRCUbsjub77/hotel-management?node-id=64%3A419&t=RZ88y3GRNEsveVeq-1
 
 ## Tech Stack
 
