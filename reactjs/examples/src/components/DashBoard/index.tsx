@@ -15,18 +15,16 @@ const DashBoard: React.FC = () => {
     return (
         <Layout style={{ width: '1300px' }}>
             <Layout>
-                <Sider width={200} style={{ background: colorBgContainer }}>
-                    <SideBar/>
-                </Sider>
+                <SideBar />
                 <Layout style={{ padding: '0 24px 24px' }}>
                     <HeaderBar />
                     <Col style={{ display: 'flex', textAlign: 'center', alignItems: 'center' }}>
                         <Title>DashBoard
-                               <SearchInput />
+                            <SearchInput />
                         </Title>
                     </Col>
                     <Row>
-                        <Col span={12} style={{ height: '200px', background: 'orange', borderRadius:'40px' }}>
+                        <Col span={12} style={{ height: '200px', background: 'orange', borderRadius: '40px' }}>
                             <Title>Doanh thu ngày</Title>
                         </Col>
                         <Col span={12}>
